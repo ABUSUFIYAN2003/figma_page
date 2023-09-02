@@ -1,476 +1,420 @@
-/* Reset default margin and padding */
+/* Reset default margin and padding for all elements */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: var(--dark-colour, #2E333A);
-    
-  }
-  
-  /* Style the navbar */
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 10px 20px;
-    color: white;
-    background: var(--dark-colour, #2E333A);
-
-/* NewM T Nav */
-box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
-  }
-  .navbar-right {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  /* Style the logo */
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-    width: 180.889px;
-height: 55px;
-  }
-  
-  /* Style the search bar */
-  .search-bar {
-    padding: 8px;
-    border: none;
-    border-radius: 5px;
-    width: 400px;
-    display: flex;
-
-padding: 15px 20px;
-justify-content: space-between;
-align-items: center;
-border-radius: 15px;
-background: var(--dark-colour, #2E333A);
-
-/* NewM T btn inner  */
-box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset, -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #3B4451 inset;
-  }
-  
-  /* Style social media icon and profile button */
-  .social-icon,
-  .profile-button {
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
-  }
-  
-  /* Add some hover effect for links */
-  .social-icon:hover,
-  .profile-button:hover {
-    text-decoration: underline;
-  }
-  .signup-btn {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 5px;
-    border-radius: 12px;
-    gap: 6px;
-background: var(--dark-colour, #2E333A);
-
-/* NewM T Nav */
-box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
-  }
-  
-  .signup-btn img {
-    width: 30px; /* Adjust this size as needed */
-  }
-::placeholder{
-    color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--dark-colour, #2E333A); /* Set a default background color */
 }
 
-/* css of side navigation bar*/
+/* Style the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+  background: var(--dark-colour, #2E333A);
+
+  /* Apply a box shadow for a new look */
+  box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000,
+              -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Style the logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  width: 180.889px;
+  height: 55px;
+}
+
+/* Style the search bar */
+.search-bar {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  width: 400px;
+  display: flex;
+  padding: 15px 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  background: var(--dark-colour, #2E333A);
+
+  /* Apply a box shadow for a new look */
+  box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset,
+              -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #3B4451 inset;
+}
+
+/* Style social media icon and profile button */
+.social-icon,
+.profile-button {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+/* Add hover effect for links */
+.social-icon:hover,
+.profile-button:hover {
+  text-decoration: underline;
+}
+
+.signup-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 12px;
+  gap: 6px;
+  background: var(--dark-colour, #2E333A);
+
+  /* Apply a box shadow for a new look */
+  box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000,
+              -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+}
+
+.signup-btn img {
+  width: 30px; /* Adjust this size as needed */
+}
+
+/* Style placeholder text */
+::placeholder {
+  color: white;
+}
+
+/* CSS for side navigation bar */
 .navigation-bar {
-    float:left;
-    margin-right: 150px;
-    box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
-    border-radius: 5px;
-    margin-top: 30px;
-    background-color: 2E333A;
-    width: 80px;
-    height: 800%;
-    left: 0;
-    top: 0;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    display: flex;
-padding: 0px 10px;
-flex-direction: column;
-align-items: center;
-gap: 30px;
-padding: 10px;
+  float: left;
+  margin-right: 150px;
+  box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000,
+              -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+  border-radius: 5px;
+  margin-top: 30px;
+  background-color: 2E333A;
+  width: 80px;
+  height: 800%;
+  left: 0;
+  top: 0;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  display: flex;
+  padding: 0px 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
   display: flex;
   justify-content: flex-end;
-  
-  }
-  
-  .nav-button {
-    display: flex;
-padding: 5px;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-border-radius: 12px;
-background-color: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 5px;
-background: var(--dark-colour, #2E333A);
+}
 
-/* NewM T Nav */
-box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
-  }
-  .nav-button img {
-    width: 30px;
-  }
-  .nav-button:hover {
-    font-size: 5px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-background: var(--dark-colour, #2E333A);
+.nav-button {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 12px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  background: var(--dark-colour, #2E333A);
 
-/* NewM T btn inner  */
-box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset, -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #3B4451 inset;
- }
-  /* ... Your existing styles ... */
+  /* Apply a box shadow for a new look */
+  box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000,
+              -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+}
+
+.nav-button img {
+  width: 30px;
+}
+
+.nav-button:hover {
+  font-size: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background: var(--dark-colour, #2E333A);
+
+  /* Apply an inset box shadow for a new look */
+  box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset,
+              -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #3B4451 inset;
+}
 
 /* Style for the new box */
 .box {
-    width: 400px;
-    height: 500px;
-        border: 1px solid ;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 10px; /* Add some margin for spacing */
-    float: left; /* Float the box to the right */
-    display: flex;
-padding: 15px;
-flex-direction: column;
-align-items: flex-start;
-gap: 60px;
-border-radius: 25px;
-background: var(--dark-colour, #2E333A);
+  width: 400px;
+  height: 500px;
+  border: 1px solid;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 10px; /* Add margin for spacing */
+  float: left; /* Float the box to the right */
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+  border-radius: 25px;
+  background: var(--dark-colour, #2E333A);
 
-/* NewM T Components */
-box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px rgba(16, 16, 18, 0.75);
-  }
-  .box1 {
-    width: 800px;
-    height: 500px;
-    border: 1px solid;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 10px; /* Add some margin for spacing */
-    float: left; /* Float the box to the right */
-    display: flex;
-    padding: 15px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 60px;
-    border-radius: 25px;
-background: var(--dark-colour, #2E333A);
+  /* Apply a box shadow for a new look */
+  box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px rgba(16, 16, 18, 0.75);
+}
 
-/* NewM T Components */
-box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px rgba(16, 16, 18, 0.75);
-  }
-  .content{
-    color: var(--white-colour, #FFF);
-    float:left;
-   
-/* Poppins/28/Medium */
-font-family: Poppins;
-text-align: left;
-font-size: 21px;
-font-style: normal;
-font-weight: 500;
-line-height: 130%; 
-  }
-  .box2{
-     margin-left: 240px;
-    margin-top: 50px;
-    display: flex;
-    width:1000px;
-padding: 15px;
-align-items: flex-start;
-border-radius: 25px;
-background: var(--dark-colour, #2E333A);
-float: left;
+.box1 {
+  width: 800px;
+  height: 500px;
+  border: 1px solid;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 10px; /* Add margin for spacing */
+  float: left; /* Float the box to the right */
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+  border-radius: 25px;
+  background: var(--dark-colour, #2E333A);
 
-/* NewM T Nav */
-box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
-  }
-  .box3{
-    margin-left: 240px;
-    margin-top: 60px;
-    display: flex;
-    width:1000px;
-padding: 10px;
-align-items: flex-start;
+  /* Apply a box shadow for a new look */
+  box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px rgba(16, 16, 18, 0.75);
+}
 
-border-radius: 25px;
-background: var(--dark-colour, #2E333A);
-float: left;
+.content {
+  color: var(--white-colour, #FFF);
+  float: left;
 
-/* NewM T Nav */
-box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
-  }
-  .people{
-    text-align: center;
-    margin-top: 50px;
-    color: var(--white-colour, #FFF);
-    /* Poppins Semi-bold 35 */
-    font-family: Poppins;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 130%;
-    float:left
+  /* Poppins/28/Medium */
+  font-family: Poppins;
+  text-align: left;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
 
-  }
+.box2 {
+  margin-left: 240px;
+  margin-top: 50px;
+  display: flex;
+  width: 1000px;
+  padding: 15px;
+  align-items: flex-start;
+  border-radius: 25px;
+  background: var(--dark-colour, #2E333A);
+  float: left;
 
-/* cards */
+  /* Apply a box shadow for a new look */
+  box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000,
+              -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+}
+
+.box3 {
+  margin-left: 240px;
+  margin-top: 60px;
+  display: flex;
+  width: 1000px;
+  padding: 10px;
+  align-items: flex-start;
+  border-radius: 25px;
+  background: var(--dark-colour, #2E333A);
+  float: left;
+
+  /* Apply a box shadow for a new look */
+  box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000,
+              -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+}
+
+.people {
+  text-align: center;
+  margin-top: 50px;
+  color: var(--white-colour, #FFF);
+  /* Poppins Semi-bold 35 */
+  font-family: 'Poppins';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  float: left;
+}
+
+/* Styling for cards */
 * {
   box-sizing: border-box;
-
 }
+
+.columns {
+  margin-top: 30px;
+  float: left;
+  width: 15%;
+}
+
+/* Clear floats after the columns */
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+  gap: 30px;
+}
+
+/* Responsive columns for smaller screens */
+@media screen and (max-width: 600px) {
   .columns {
-    margin-top: 30px;
-    float: left;
-    width: 15%;
- 
-  }
-  
-  /* Remove extra left and right margins, due to padding */
-  
-  
-  /* Clear floats after the columns */
-  .rows:after {
-    content: "";
-    display: table;
-    clear: both;
-    gap:30px;
-  }
-  
-  /* Responsive columns */
-  @media screen and (max-width: 600px) {
-    .columns {
       width: 100%;
       display: block;
       margin-bottom: 20px;
-    }
   }
-  
-  /* Style the counter cards */
-  .card1{
-    width: 150px;
-    height: 150px;
-    margin-left: 10px;
-    display: flex;
-padding: 15px;
-flex-direction: column;
-align-items: flex-start;
-gap: 30px;
-border-radius: 25px;
-background: var(--dark-colour, #2E333A);
-
-/* NewM T Components */
-box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px rgba(16, 16, 18, 0.75);
-  }
-
-  .card2{
-    width: 150px;
-    height: 150px;
-    
-    display: flex;
-padding: 15px;
-flex-direction: column;
-align-items: flex-start;
-gap: 30px;
-border-radius: 25px;
-background: var(--dark-colour, #2E333A);
-
-/* NewM T Components */
-box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px rgba(16, 16, 18, 0.75);
-  }
-  .card3{
-    width: 150px;
-    height: 150px;
-    display: flex;
-padding: 15px;
-flex-direction: column;
-align-items: flex-start;
-gap: 30px;
-border-radius: 25px;
-background: var(--dark-colour, #2E333A);
-
-/* NewM T Components */
-box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px rgba(16, 16, 18, 0.75);
-  }
-  .card4{
-    width: 150px;
-    height: 150px;
-    
-    display: flex;
-padding: 15px;
-flex-direction: column;
-align-items: flex-start;
-gap: 30px;
-border-radius: 25px;
-background: var(--dark-colour, #2E333A);
-
-/* NewM T Components */
-box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px rgba(16, 16, 18, 0.75);
-  }
-  .card5{
-    width: 150px;
-    height: 150px;
-    
-    display: flex;
-padding: 15px;
-flex-direction: column;
-align-items: flex-start;
-gap: 60px;
-border-radius: 25px;
-background: var(--dark-colour, #2E333A);
-
-/* NewM T Components */
-box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px rgba(16, 16, 18, 0.75);
-  }
-  .card6{
-    width: 150px;
-    height: 150px;
-    
-    display: flex;
-padding: 15px;
-flex-direction: column;
-align-items: flex-start;
-gap: 60px;
-border-radius: 25px;
-background: var(--dark-colour, #2E333A);
-
-/* NewM T Components */
-box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px rgba(16, 16, 18, 0.75);
-  }
-  .boxe {
-    margin-left: 500px;
-    margin-top: 200px;
-    width: 350px;
-    height: 370px;
-        border: 1px solid ;
-    padding: 10px;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 10px; /* Add some margin for spacing */
-    float: left; /* Float the box to the right */
-    display: flex;
-
-flex-direction: column;
-align-items: flex-start;
-gap: 80px;
-border-radius: 25px;
-background: var(--dark-colour, #2E333A);
-
-/* NewM T Components */
-box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px rgba(16, 16, 18, 0.75);
-  }
-  .logo-box {
-    width: 30px;
-    height: 30px;
-    
-    display: flex;
-    justify-content: center;
-    align-items: left;
-  }
-  
-  .logo-image {
-    
-    background-color: #FFF;
-    border-radius: 5px;
-  }
-  .log{
-    width: 100px;
-    height: 20px;
-    display: flex;
-  }
-  .boxer {
-    float: left;
-    width: 300px;
-    height: 370px;
-        border: 1px solid ;
-    padding: 10px;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 60px; /* Add some margin for spacing */
-    float: left; /* Float the box to the right */
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 80px;
-border-radius: 30px;
-background: var(--dark-colour, #2E333A);
-
-/* NewM T Nav */
-box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
-  }
-  .logs{
-    width: 90px;
-height:90px;
-    display: flex;
-    border-radius: 100px;
-border: 1px solid #2E333A;
-background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-float: left;
-  }
-  .lo{
-    margin-top: -120px;
-    width: 260px;
-height: 160px;
-    display: flex;
-    
-  }
-  .logs-second{
-    width: 100px;
-height: 100px;
-float: center;
-  }
-
-  .search-container {
-    display: flex;
-    align-items: center;
 }
 
+/* Style for the counter cards */
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  border-radius: 25px;
+  background: var(--dark-colour, #2E333A);
 
+  /* Apply a box shadow for a new look */
+  box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px rgba(16, 16, 18, 0.75);
+}
+
+/* Styling for boxes */
+.boxe {
+  margin-left: 500px;
+  margin-top: 200px;
+  width: 350px;
+  height: 370px;
+  border: 1px solid;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 10px; /* Add margin for spacing */
+  float: left; /* Float the box to the right */
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+  border-radius: 25px;
+  background: var(--dark-colour, #2E333A);
+
+  /* Apply a box shadow for a new look */
+  box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px rgba(16, 16, 18, 0.75);
+}
+
+.logo-box {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+}
+
+.logo-image {
+  background-color: #FFF;
+  border-radius: 5px;
+}
+
+.log {
+  width: 100px;
+  height: 20px;
+  display: flex;
+}
+
+.boxer {
+  float: left;
+  width: 300px;
+  height: 370px;
+  border: 1px solid;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 60px; /* Add margin for spacing */
+  float: left; /* Float the box to the right */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+  border-radius: 30px;
+  background: var(--dark-colour, #2E333A);
+
+  /* Apply a box shadow for a new look */
+  box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000,
+              -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+}
+
+.logs {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  border-radius: 100px;
+  border: 1px solid #2E333A;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  float: left;
+}
+
+.lo {
+  margin-top: -120px;
+  width: 260px;
+  height: 160px;
+  display: flex;
+}
+
+.logs-second {
+  width: 100px;
+  height: 100px;
+  float: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
 
 .search-input {
   margin-left: 250px;
-    padding: 5px;
-    font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: 130%;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 300px; /* Adjust input width as needed */
-    height: 50px;
-    border-radius: 15px;
-background: var(--dark-colour, #2E333A);
+  padding: 5px;
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px; /* Adjust input width as needed */
+  height: 50px;
+  border-radius: 15px;
+  background: var(--dark-colour, #2E333A);
 
-/* NewM T btn inner  */
-box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset, -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #3B4451 inset;
+  /* Apply a box shadow for a new look */
+  box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset,
+              -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #3B4451 inset;
 }
 
 .bod {
@@ -479,121 +423,152 @@ box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #0
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .special-bar {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #2E333A;
   padding: 10px 20px;
-  
- 
 }
 
 .search-bar {
   color: white;
-  font-size:medium;
+  font-size: medium;
   margin-left: 400px;
   display: flex;
-width: 300px;
-padding: 15px 20px;
-justify-content: space-between;
-align-items: center;
-border-radius: 15px;
-border: 1px solid var(--secondary-blue-light-1, #72E4F9);
-background: var(--dark-colour, #2E333A);
+  width: 300px;
+  padding: 15px 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid var(--secondary-blue-light-1, #72E4F9);
+  background: var(--dark-colour, #2E333A);
 
-/* NewM T btn inner  */
-box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset, -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #3B4451 inset;
+  /* Apply a box shadow for a new look */
+  box-shadow: 3.7338130474090576px 3.7338130474090576px 6.223021507263184px 0px #000 inset,
+              -6.223021507263184px -6.223021507263184px 6.223021507263184px 0px #3B4451 inset;
 }
 
 .icon {
   height: 40px;
   display: flex;
-padding: 18px;
-flex-direction: column;
-justify-content: center;
-color: #FFF;
-align-items: flex-start;
-border-radius: 12px;
-border: 1px solid var(--secondary-blue-light-1, #72E4F9);
-background: var(--dark-colour, #2E333A);
+  padding: 18px;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFF;
+  align-items: flex-start;
+  border-radius: 12px;
+  border: 1px solid var(--secondary-blue-light-1, #72E4F9);
+  background: var(--dark-colour, #2E333A);
 
-/* NewM T Nav */
-box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+  /* Apply a box shadow for a new look */
+  box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000,
+              -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
 }
 
 .create-account-button {
-  
   width: 250px;
   height: 40px;
   display: flex;
-padding: 10px 40px;
-justify-content:left;
-align-items: center;
-color: #FFF;
-border-radius: 12px;
-border: 1px solid var(--secondary-blue-light-1, #72E4F9);
-background: var(--dark-colour, #2E333A);
+  padding: 10px 40px;
+  justify-content: left;
+  align-items: center;
+  color: #FFF;
+  border-radius: 12px;
+  border: 1px solid var(--secondary-blue-light-1, #72E4F9);
+  background: var(--dark-colour, #2E333A);
 
-/* NewM T Nav */
-box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+  /* Apply a box shadow for a new look */
+  box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000,
+              -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
 }
+
 .bgs {
   position: relative;
   opacity: 0.5;
 }
+
 .bloc-container {
+  vertical-align: right;
   margin-top: 50px;
   display: flex;
-  justify-content: space-between; /* Distribute space between blocs */
-  flex-wrap: wrap; /* Allow blocs to wrap to the next row if needed */
+  justify-content: space-between; /* Distribute space between blocks */
+  flex-wrap: wrap; /* Allow blocks to wrap to the next row if needed */
 }
-/* Bottom right text */
+
+/* Bottom right text for blocks */
 .bloc {
-  width: calc(25% - 20px); /* 25% width with some spacing between */
   margin-bottom: 20px;
   position: relative;
-    width: 300px;
-    height: 370px;
-  
-    padding: 10px;
-    box-sizing: border-box;
-   
-    margin: 60px; /* Add some margin for spacing */
-    /* Float the box to the right */
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 80px;
-margin-right: 400px;
-border-radius: 30px;
-background: var(--dark-colour, #2E333A);
+  width: 300px;
+  height: 370px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 60px; /* Add margin for spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+  margin-right: 400px;
+  border-radius: 30px;
+  background: var(--dark-colour, #2E333A);
 
-/* NewM T Nav */
-box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000, -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
-  }
-.sun{
+  /* Apply a box shadow for a new look */
+  box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000,
+              -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
+}
+
+.sun {
   width: 80px;
-height: 80px;
-position: absolute;
-    top: 50%; /* Place the image 50% down from the top of the parent box */
-    left: 30%; /* Place the image 50% from the left of the parent box */
-    transform: translate(-50%, -50%); 
+  height: 80px;
+  position: absolute;
+  top: 50%; /* Place the image 50% down from the top of the parent box */
+  left: 30%; /* Place the image 50% from the left of the parent box */
+  transform: translate(-50%, -50%);
+}
 
-}
-.no{
+.no {
   color: var(--Secondary-Blue-light-1, #72E4F9);
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: 130%; /* 18.2px */
-color: var(--Secondary-Blue-light-1, #72E4F9);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  color: var(--Secondary-Blue-light-1, #72E4F9);
 }
-.frame{
+
+.frame {
   padding: 50px;
+}
+
+/* Your other code goes here... */
+
+/* Add comments as needed to explain the purpose and functionality of your code. */
+
+/* For example, describe what each section does and any notable design choices. */
+.boxers {
+  float:right; 
+  position: right;
+        top: 50%; /* Position the top of the container at the vertical center of the viewport */
+        left: 50%; /* Position the left side of the container at the horizontal center of the viewport */
+        transform: translate(-50%, -50%); /* Center the container both horizontally and vertically */
+        text-align: center;
+  border: 1px solid;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 60px; /* Add margin for spacing */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+  border-radius: 30px;
+  background: var(--dark-colour, #2E333A);
+
+  /* Apply a box shadow for a new look */
+  box-shadow: 6.223021507263184px 6.223021507263184px 18.669065475463867px 0px #000,
+              -6.223021507263184px -6.223021507263184px 18.669065475463867px 0px #3B4451;
 }
